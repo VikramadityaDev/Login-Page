@@ -53,8 +53,8 @@ class _LoginPagezState extends State<LoginPagez> {
   }
 // creating a function login
   loginUI() {
-    //loggedIn
-    //loginControllers
+    loggedIn
+    loginControllers
 
     return Consumer<LoginController>(builder: (context, model, child) {
 
@@ -121,16 +121,16 @@ class _LoginPagezState extends State<LoginPagez> {
 
           SizedBox(height: 10,),
 
-          // GestureDetector(
-          //     child: Image.asset(
-          //       "assets/images/fb.png",
-          //       width: 240,
-          //     ),
-          //     onTap: ()
-          //     {
-          //       Provider.of<LoginController>(context, listen: false).facebooklogin();
-          //     }
-          // ),
+           GestureDetector(
+               child: Image.asset(
+                 "assets/images/fb.png",
+                 width: 240,
+               ),
+               onTap: ()
+               {
+                 Provider.of<LoginController>(context, listen: false).facebooklogin();
+               }
+           ),
         ],
       ),
     );
