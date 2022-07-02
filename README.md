@@ -1,6 +1,6 @@
 # login_page
 
-A new Flutter project.Make Your Own Sign In Page Using Google and Facebook Authentication.
+A New Flutter Project. Make Your Own Sign In Page Using Google and Facebook Authentication.
 
 # ScreenShots 
 
